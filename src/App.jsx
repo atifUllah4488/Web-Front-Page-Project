@@ -344,10 +344,6 @@ const Navlinks = ({ to, children, onClick }) => {
 export default function App() {
     const [isMenuOpen, SetisMenuOpen] = useState(false);
     const [isFormOpen, setIsFormOpen] = useState(false);
-    
-    // Removed db, auth, and userId state variables.
-    
-    // Removed the entire Firebase useEffect initialization block.
 
     return (
         <BrowserRouter>
